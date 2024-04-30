@@ -1,0 +1,53 @@
+.transactions-list {
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem 1rem 0;
+  padding: 0 0 0 1rem;
+
+}
+
+.transactions-list-empty {
+  width: 90%;
+  height: 200px;
+  font-family: "Open Sans";
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgb(200, 138, 138);
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#warning-text {
+  margin: 0 auto
+}
+
+.pagination {
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+  margin: 0.3rem;
+  gap: 1rem;
+}
+
+.pagination>button {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: linear-gradient(0deg, #F1F1F1, #F1F1F1);
+
+}
+
+.pagination>#main-btn {
+  background-color: rgba(67, 150, 123, 1);
+}

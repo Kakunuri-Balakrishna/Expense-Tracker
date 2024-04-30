@@ -1,0 +1,14 @@
+.wallet-balance-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0.2rem;
+
+}
+
+#wallet-balance-amt {
+  color: rgba(157, 255, 91, 1);
+
+}
